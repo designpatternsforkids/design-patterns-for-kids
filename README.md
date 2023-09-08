@@ -1,3 +1,3 @@
 # Introduction
 
-Design patterns are best practices to tackle particular problems.
+Design patterns are proven solutions to tackle particular problems in software design.
