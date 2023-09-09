@@ -53,7 +53,7 @@ class MacLaptop implements Laptop {
 }
 ```
 
-Laptop factory that makes the laptop and returns it
+Laptop factory and the implementation
 
 ```java
 class LaptopFactory {
