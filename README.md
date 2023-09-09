@@ -1,4 +1,4 @@
-# Introduction
+<!-- # Introduction
 
 > Design patterns are proven solutions to tackle particular problems in software design.
 
@@ -8,7 +8,7 @@
 * Structural
 * Behavioral
 
-📝 Note: The code samples below are in Java.
+Note: Examples code below are in Java.
 
 # Creational Patterns
 
@@ -69,4 +69,4 @@ It can be used
 // Make me a 14 inch laptop
 Laptop macLaptop = LaptopFactory.makeLaptop(14);
 System.out.println(macLaptop.getScreenSize());
-```
+``` -->
