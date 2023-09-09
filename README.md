@@ -29,4 +29,44 @@ Simple Factory is the way of creating objects to encapsulate the instantiation l
 
 Real world example
 
-> Imagine, you want a laptop. You can just call the factory and get the built laptop delivered to you so that you don't need to learn anything about the laptop making.
+> Let's consider, you want a Mac laptop. You simply can get one from a factory so you don't need to learn anything about making the laptop.
+
+**Example**
+
+Laptop interface and the implementation
+
+```java
+interface Laptop {
+  public int getScreenSize();
+}
+
+class MacLaptop implements Laptop {
+  protected int screenSize;
+
+  public MacLaptop(int screenSize) {
+    this.screenSize = screenSize;
+  }
+
+  public int getScreenSize() {
+    return this.screenSize;
+  }
+}
+```
+
+Laptop factory that makes the laptop and returns it
+
+```java
+class LaptopFactory {
+  public static Laptop makeLaptop(int screenSize) {
+    return new MacLaptop(screenSize);
+  }
+}
+```
+
+It can be used
+
+```java
+// Make me a 14 inch laptop
+Laptop macLaptop = LaptopFactory.makeLaptop(14);
+System.out.println(macLaptop.getScreenSize());
+```
