@@ -1,6 +1,6 @@
 # Introduction
 
-Design patterns are proven solutions to tackle particular problems in software design.
+> Design patterns are proven solutions to tackle particular problems in software design.
 
 ### Types of Design Patterns
 
@@ -23,4 +23,6 @@ Creational patterns are the way of creating objects, which increase flexibility 
 
 ## Simple Factory
 
-Simple Factory is the way of creating objects without exposing the object creation logic to the client.
+Simple Factory is the way of creating objects to encapsulate the instantiation logic of entity. Client doesn't know the actual instantiation logic of entity.
+
+> Simple Factory is the way of creating objects without exposing the object creation logic to the client.
