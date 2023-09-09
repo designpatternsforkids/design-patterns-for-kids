@@ -12,7 +12,7 @@
 
 # Creational Patterns
 
-Creational patterns are the way of creating objects, which increase flexibility and reuse of existing code.
+> Creational patterns are the way of creating objects, which increase flexibility and reuse of existing code.
 
 * Simple Factory
 * Factory Method
