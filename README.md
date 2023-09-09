@@ -26,3 +26,7 @@
 Simple Factory is the way of creating objects to encapsulate the instantiation logic of entity. Client doesn't know the actual instantiation logic of entity.
 
 > Simple Factory is the way of creating objects without exposing the object creation logic to the client.
+
+Real world example
+
+> Imagine, you want a laptop. You can just call the factory and get the built laptop delivered to you so that you don't need to learn anything about the laptop making.
