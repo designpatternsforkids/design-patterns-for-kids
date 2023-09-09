@@ -8,6 +8,10 @@ Design patterns are proven solutions to tackle particular problems in software d
 * Structural
 * Behavioral
 
+### 📝 Note
+
+The code samples below are in Java.
+
 # Creational Patterns
 
 Creational patterns are the way of creating objects, which increase flexibility and reuse of existing code.
