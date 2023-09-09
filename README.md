@@ -33,7 +33,7 @@ Real world example
 
 **Example**
 
-Laptop interface and the implementation
+Laptop interface and implementation
 
 ```java
 interface Laptop {
@@ -53,7 +53,7 @@ class MacLaptop implements Laptop {
 }
 ```
 
-Laptop factory and the implementation
+Laptop factory and implementation
 
 ```java
 class LaptopFactory {
